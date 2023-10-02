@@ -1,0 +1,46 @@
+      Container(
+        width: 500.0,
+        height: 500.0,
+        color: Color(0xff292d32),
+        alignment: Alignment.center,
+        transformAlignment: Alignment.center,
+        child: Container(
+          color: Color(0xff292d32),
+          child: Container(
+            width: 100,
+            height: 100,
+            child: Icon(
+              Icons.star,
+              size: 33,
+              color: Colors.amber,
+            ),
+            decoration: BoxDecoration(
+              color: Color(0xff292d32),
+              borderRadius: BorderRadius.circular(15),
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [
+                  Color(0xff292d32),
+                  Color(0xff292d32),
+                ],
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Color(0xff363a3f),
+                  offset: Offset(-10.0, -10.0),
+                  blurRadius: 20,
+                  spreadRadius: 0.0,
+                ),
+                BoxShadow(
+                  color: Color(0xff1c2025),
+                  offset: Offset(10.0, 10.0),
+                  blurRadius: 20,
+                  spreadRadius: 0.0,
+                ),
+              ],
+            ),
+          ),
+        ),
+      )
+  
