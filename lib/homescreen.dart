@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   String number1 = "";
   String operand = "";
   String number2 = "";
-  bool isDarkMode = true;
+  bool isDarkMode = false;
   late List<bool> isPressedList; // Track the pressed state for each button
 
   @override
